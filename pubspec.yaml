@@ -1,0 +1,33 @@
+name: triva
+description: A Flutter Number Triva application
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  # Service locator
+  get_it: ^3.1.0
+  # State management using Bloc
+  flutter_bloc: ^3.0.0
+  # Object equality
+  equatable: ^1.0.1
+  # Functional programming
+  dartz: ^0.8.9
+  # Connectivity
+  data_connection_checker: ^0.3.4
+  http: ^0.12.0+3
+  # Local cache
+  shared_preferences: ^0.5.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^4.1.1
+
+flutter:
+  uses-material-design: true
